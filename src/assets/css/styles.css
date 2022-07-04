@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #e7eff6;
+  font-family: 'Italiana', serif;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagem__perfil {
+  margin: 10px;
+  height: 220px;
+  width: 220px;
+}
+
+.nome__perfil {
+  display: flex;
+  text-align: center;
+  color: #2a4d69;
+  font-weight: 700;
+  font-size: 32px;
+  align-items: flex-start;
+}
+
+.navegacao__perfil {
+  display: flex;
+  width: 75px;
+  height: 72px;
+  margin: 10px;
+}
+
+.navegacao__perfil a img {
+  width: 47px;
+  height: 47px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: rgba(187, 189, 182, 0.3);
+}
+
+.MinhasPublicacoes {
+  display: flex;
+  justify-content: center;
+	font-weight: 700;
+	font-size: 26px;
+	text-align: center;
+  color: #2a4d69;
+ 
+}
+
+.MinhasPublicacoes h2 {
+	margin: 10px 0 ;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	flex-wrap: wrap;
+}
+
+
+
+
+.card__publicacoes img {
+  width: 600px;
+  height: 369px;
+  border-radius: 10px;
+  margin: 10px;
+	
+}
+
+.card__publicacoes {
+  display: inline-block;
+  position: relative;
+	
+}
+
+.card__publicacoes figcaption {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  font-size: 24px;
+	width: 560px ;
+  color: #fff;
+	background-color: rgba(187, 189, 182, 0.6);
+ border-radius: 10px;
+}
