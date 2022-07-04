@@ -44,48 +44,43 @@ header {
 .MinhasPublicacoes {
   display: flex;
   justify-content: center;
-	font-weight: 700;
-	font-size: 26px;
-	text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
   color: #2a4d69;
- 
 }
 
 .MinhasPublicacoes h2 {
-	margin: 10px 0 ;
+  margin: 10px 0;
 }
 
 section {
   display: flex;
   justify-content: center;
   align-items: center;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
-
-
 
 .card__publicacoes img {
   width: 600px;
   height: 369px;
   border-radius: 10px;
   margin: 10px;
-	
 }
 
 .card__publicacoes {
   display: inline-block;
   position: relative;
-	
 }
 
 .card__publicacoes figcaption {
+	padding: 10px;
   position: absolute;
   bottom: 30px;
   left: 20px;
   font-size: 24px;
-	width: 560px ;
+  width: 560px;
   color: #fff;
-	background-color: rgba(187, 189, 182, 0.6);
- border-radius: 10px;
+  background-color: rgba(187, 189, 182, 0.6);
+  border-radius: 10px;
 }
